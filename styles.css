@@ -1,0 +1,85 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #ba8260;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    height: 40px;
+}
+
+main {
+    padding: 0px;
+    background-color: rgba(252, 212, 174, 0.754);
+}
+
+table {
+    padding: 40px;
+    width: 100%;
+}
+
+.hero{
+    background-image: url('nature.webp');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(84, 39, 17, 0.424); /* subtle overlay */
+    background-blend-mode: overlay;
+    color: white;
+    height: 300px;
+    
+}
+.about-me{
+    background-color: #a24412;
+    
+    height: 350px;
+
+}
+.projects {
+    background-color: #ffeee3;
+    text-align: center;
+    height: 350px;
+}
+
+
+
+footer {
+    background-color: #ba8260;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+a {
+    color: #00f;
+}
